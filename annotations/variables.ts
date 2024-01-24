@@ -28,7 +28,7 @@ const logNumber: (i: number) => void = (i: number) => {
   console.log(i);
 };
 
-//w hen to use type annotations
+//when to use type annotations
 // 1) when a function returns the 'any' type and we need to clarify the value
 const json = '{"x:10,"y":20}';
 const coordinates: { x: number; y: number } = JSON.parse(json);
